@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  color: #fff;
+  font-family: arial; }
+
+.fa-phone {
+  transform: rotateY(180deg); }
+
+input,
+textarea {
+  display: block;
+  width: 100%;
+  margin-top: 10px; }
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 60%;
+  transform: translateX(-50%);
+  z-index: 2;
+  margin-top: 15px; }
+  .top-bar .fa-university {
+    color: #EFD70C;
+    font-size: 24px; }
+  .top-bar .bar-logo-caption {
+    font-weight: 600;
+    font-size: 20px; }
+  .top-bar .bar-contact-caption {
+    display: inline-block;
+    font-size: 12px; }
+  .top-bar .fa-phone {
+    transform: rotateY(180deg) translateY(-40%); }
+  .top-bar .bar-contact-caption-text {
+    font-size: 10px; }
+
+.form-section {
+  position: relative;
+  height: 78vh;
+  background: url(../assets/img/background.png) no-repeat center center/cover;
+  background-position-y: +30%; }
+
+.form-outer-container {
+  position: absolute;
+  top: 25%;
+  right: 15%;
+  width: 250px; }
+  .form-outer-container h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding-right: 5px; }
+    .form-outer-container h2 span {
+      color: #EFD70C; }
+
+.form-inner-container {
+  width: 100%;
+  background-color: #021C8A;
+  padding: 10px; }
+  .form-inner-container .form-header {
+    font-size: 14px; }
+  .form-inner-container input {
+    height: 30px;
+    padding-left: 3px; }
+  .form-inner-container input::placeholder {
+    font-size: 10px; }
+  .form-inner-container textarea {
+    height: 40px;
+    padding: 3px 0 0 3px; }
+  .form-inner-container textarea::placeholder {
+    font-size: 10px; }
+  .form-inner-container .btn {
+    width: 60px;
+    height: 40px;
+    padding: 0;
+    background-color: #EFD70C;
+    border: none;
+    font-weight: 600; }
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 22vh;
+  background-color: #292929; }
+  .footer .contact-icons {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: 30px 0 10px 0;
+    font-size: 11px; }
+    .footer .contact-icons .icon-container {
+      width: 30px;
+      height: 30px;
+      margin: 10px auto;
+      background-color: #FDC441;
+      text-align: center; }
+      .footer .contact-icons .icon-container .fas {
+        color: #000;
+        line-height: 30px;
+        font-size: 14px; }
+  .footer .footer-caption {
+    width: 70%;
+    font-size: 10px; }

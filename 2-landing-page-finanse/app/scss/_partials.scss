@@ -1,0 +1,11 @@
+$brigth-yellow: #EFD70C;
+$dim-yellow: #FDC441;
+$form-blue: #021C8A;
+$font-color: #fff;
+$dark-background: #292929;
+
+@mixin global-style-reset {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
