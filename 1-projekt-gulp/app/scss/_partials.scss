@@ -1,0 +1,14 @@
+$background-color-base: #b4e651;
+$font-size-base: 4rem;
+
+@mixin reset-link($color: #000) {
+    color: $color;
+    text-decoration: none;
+    display: block;
+}
+
+@for $i from 1 through 10 {
+    .mw-#{$i*10} {
+        max-width: #{$i*10%};
+    }
+}

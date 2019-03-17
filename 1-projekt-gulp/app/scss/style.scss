@@ -1,0 +1,45 @@
+@import 'partials';
+
+body {
+    background-color: $background-color-base;
+    font-size: $font-size-base;
+}
+
+h1 {
+    line-height: 1.5;
+}
+
+.link {
+    &1 {
+        @include reset-link(green);
+    }
+
+    &2 {
+        @include reset-link();
+    }
+
+    &3 {
+        @include reset-link(rgb(120, 10, 70));
+    }
+
+    &4.btn {
+        @include reset-link(rgb(100, 10, 180));
+    }
+}
+
+.portfolio {
+    h1 {
+        color: pink;
+        font-size: 60px;
+    }
+
+    h2 {
+        color: navy;
+        font-size: 40px;
+    }
+
+    p {
+        color: gray;
+        font-size: 12px;
+    }
+}
